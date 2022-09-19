@@ -5,7 +5,7 @@ import { Data } from "./components/data/Context";
 import { useState } from "react";
 
 function App() {
-  const [latlong, setlatlong] = useState();
+  const [latlong, setlatlong] = useState('');
 
   console.log(latlong)
 
